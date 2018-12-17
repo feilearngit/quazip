@@ -80,6 +80,7 @@ win32 {
     DEFINES += NOMINMAX
 
     INCLUDEPATH += $$PWD/include
+    LIBS += -L$$PWD/lib -lzlib1
 }
 
 
